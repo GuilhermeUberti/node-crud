@@ -1,0 +1,30 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title" : "Video nodeEE",
+    "description" : "Primeiro vídeo",
+    "duration" : 180
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/d0b02875-128d-4dc3-966f-ed3aec7f4d75
+Content-Type: application/json
+
+{
+    "title" : "Video react",
+    "description" : "Segundo vídeo",
+    "duration" : 190
+}
+
+###
+
+DELETE http://localhost:3333/videos/93751735-9268-4245-b1cb-c5090a1c5ed5
+
+
+

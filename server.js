@@ -25,7 +25,7 @@ server.get('/videos', async (request) => {
     return videos
 })
 
-server.put('/videos/:id', async (request, reply) => {
+server.put('/videos/:id', async (request, response) => {
     const videoId = request.params.id
     const { title, description, duration } = request.body
 
